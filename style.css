@@ -9,7 +9,7 @@
 
 body {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     background-color: rgb(243, 243, 243);
     margin:0;
     padding: 0;
@@ -20,4 +20,25 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-celular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-celular img {
+    height: 50rem;
+}
+
+.instagram-entrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
